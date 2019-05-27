@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "MarcusDenker 5/27/2019 14:15",
+	"super" : "Object",
+	"category" : "Reflectivity-Bench",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"link"
+	],
+	"name" : "RFBench",
+	"type" : "normal"
+}

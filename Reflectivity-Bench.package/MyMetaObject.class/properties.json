@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "MarcusDenker 5/27/2019 14:16",
+	"super" : "Object",
+	"category" : "Reflectivity-Bench",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyMetaObject",
+	"type" : "normal"
+}
