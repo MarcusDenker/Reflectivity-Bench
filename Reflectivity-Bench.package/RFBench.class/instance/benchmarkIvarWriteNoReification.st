@@ -1,4 +1,4 @@
-benchmarking
+benchmarking - running
 benchmarkIvarWriteNoReification
 	|  instance |
 	link := MetaLink new

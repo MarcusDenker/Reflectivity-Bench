@@ -1,4 +1,4 @@
-benchmarking
+benchmarking - running
 benchmarkIvarNoLink
 	| instance |
 	instance := MyBaseObject new.

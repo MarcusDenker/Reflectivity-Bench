@@ -1,8 +1,9 @@
-benchmarking
+benchmarking - running
 benchmarkSendReificationInstead
 	|  instance |
 	link := MetaLink new
 				metaObject: MyMetaObject new;
+				optionCompileOnLinkInstallation;
 				selector: #send2:to:withArgs:;
 				arguments: #(selector object arguments);
 				control: #instead.
