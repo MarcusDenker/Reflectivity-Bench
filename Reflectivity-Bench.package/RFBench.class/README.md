@@ -1,6 +1,8 @@
-Simple benchmark for Metalinks. 
+Simple benchmark for Metalinks, both installlation and runtime.
 
-I benchmark three cases:
+installation: recompile Morph hierachy, intall links with recompile, install links
+
+running: I benchmark three cases:
 
 - Send
 - Ivar write
