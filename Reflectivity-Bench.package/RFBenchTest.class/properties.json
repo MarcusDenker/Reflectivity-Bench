@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "MarcusDenker 5/27/2019 14:15",
-	"super" : "Object",
+	"commentStamp" : "",
+	"super" : "TestCase",
 	"category" : "Reflectivity-Bench",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,6 +9,6 @@
 		"link",
 		"instance"
 	],
-	"name" : "RFBench",
+	"name" : "RFBenchTest",
 	"type" : "normal"
 }

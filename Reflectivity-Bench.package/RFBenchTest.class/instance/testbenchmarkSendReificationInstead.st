@@ -1,5 +1,5 @@
-benchmarking - running
-benchmarkSendReificationInstead
+tests
+testbenchmarkSendReificationInstead
 	link := MetaLink new
 				metaObject: MyMetaObject new;
 				optionCompileOnLinkInstallation;
@@ -7,5 +7,4 @@ benchmarkSendReificationInstead
 				arguments: #(selector object arguments);
 				control: #instead.
 	(MyBaseObject>>#benchmarkSend) ast sendNodes first link: link.
-	^[instance benchmarkSend ] bench
-	
+	self assert: instance benchmarkSend equals: instance

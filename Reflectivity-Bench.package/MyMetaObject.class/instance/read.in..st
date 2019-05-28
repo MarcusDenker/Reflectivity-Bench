@@ -1,2 +1,2 @@
 meta-methods
-read: offset in: object
+read: index in: object

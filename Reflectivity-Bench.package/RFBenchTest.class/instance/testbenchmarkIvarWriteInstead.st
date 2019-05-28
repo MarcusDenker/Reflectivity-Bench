@@ -1,5 +1,5 @@
-benchmarking - running
-benchmarkIvarWriteInstead
+tests
+testbenchmarkIvarWriteInstead
 	link := MetaLink new
 				metaObject: MyMetaObject new;
 				optionCompileOnLinkInstallation;
@@ -7,5 +7,4 @@ benchmarkIvarWriteInstead
 				arguments: #(newValue object index);
 				control: #instead.
 	(MyBaseObject>>#benchmarkReadWrite) ast assignmentNodes first link: link.
-	^[instance benchmarkReadWrite ] bench
-	
+	self assert: instance benchmarkReadWrite equals: 1

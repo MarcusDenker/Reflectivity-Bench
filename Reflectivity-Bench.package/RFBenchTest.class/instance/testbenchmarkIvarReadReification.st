@@ -1,9 +1,9 @@
-benchmarking - running
-benchmarkIvarReadNoReification
+tests
+testbenchmarkIvarReadReification
 	link := MetaLink new
 				metaObject: MyMetaObject new;
 				optionCompileOnLinkInstallation;
-				selector: #yourSelf.
+				selector: #read:in:;
+				arguments: #(name object).
 	(MyBaseObject>>#benchmarkReadWrite) ast variableReadNodes first link: link.
-	^[instance benchmarkReadWrite ] bench
-	
+	self assert: instance benchmarkReadWrite equals: 1
