@@ -1,3 +1,3 @@
-as yet unclassified
-inialize
+initialization
+initialize
 	instance := MyBaseObject new

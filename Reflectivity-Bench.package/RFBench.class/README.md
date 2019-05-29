@@ -45,4 +45,3 @@ bench benchmarkSendInstead
 in between rums, always call:
 
 bench cleanUp.
-Smalltalk garbageCollect.
