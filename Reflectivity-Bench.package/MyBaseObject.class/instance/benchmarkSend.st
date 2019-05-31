@@ -1,3 +1,3 @@
 benchmarking
 benchmarkSend
-	self do: #message with: 1 
+	self do: #message with: 1
